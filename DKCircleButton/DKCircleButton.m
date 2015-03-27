@@ -115,6 +115,8 @@
     self.layer.borderWidth = self.borderSize;
     
     self.highLightView.frame = self.bounds;
+    
+     CGPathRelease(maskPath);
 }
 
 - (void)blink {
